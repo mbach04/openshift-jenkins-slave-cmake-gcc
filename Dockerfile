@@ -1,3 +1,5 @@
+# NOT FINISHED
+
 FROM openshift/jenkins-slave-base-centos7:latest
 
 RUN yum groupinstall 'Development Tools' -y && yum install wget -y && yum install cmake \
